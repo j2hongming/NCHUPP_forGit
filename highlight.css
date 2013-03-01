@@ -1,0 +1,28 @@
+.idcard .phone{
+    color:purple;
+}
+
+.creditcard .phone{
+    color:orange;
+}
+
+.idcard{
+    color:purple;
+}
+
+.creditcard{
+    color:orange;
+}
+
+.phone{
+    color:red;
+}
+
+.cellphone{
+    color:#0ED000;
+}
+
+.email{
+    color:blue;
+}
+

@@ -1,0 +1,43 @@
+﻿.personal_tooltip{
+	margin:8px;
+	padding:8px;
+	border:1px solid blue;
+	background-color:white;
+	position: fixed;
+	bottom: 5px;
+	right: 5px;
+	z-index: 999999;
+	opacity:0.8;
+	text-align:left;
+	filter:alpha(opacity=80); /* For IE8 and earlier */		
+}
+.personal_tooltip img{
+	margin-top:0px;
+	padding-top:0px;
+}
+.personal_tooltip .header {
+	height: 18px;
+	width:100%;
+	font-size: 9px;
+}
+
+.personal_content {
+	max-height: 150px;	
+	/*max-width: 180px;*/
+	overflow:auto;
+}
+.personal_risk {
+	max-height: 50px;	
+	/*max-width: 180px;*/
+	overflow:auto;
+}
+.close_personal_tooltip{
+	cursor: pointer;
+	padding-right:3px;
+	padding-top:1px;
+	position:absolute;
+	right:8px;
+	top:2px;
+	width:12px;
+	height:12px;
+}
